@@ -55,7 +55,7 @@ def save_json(path, data, file_name):
     """Save the export controls anim key in json format.
     Args:
         path (str): file full directory path
-        data (str): dist data from keyframes
+        data (dist): dist data from keyframes
         file_name (str): export file name
     """
     json_path = "{}/{}_anim_export.json".format(path, file_name)
